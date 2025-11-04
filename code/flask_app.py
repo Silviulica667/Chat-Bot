@@ -4,7 +4,9 @@ from googleapiclient.discovery import build
 
 app = Flask(__name__)
 
-
+google_api_key = ""
+google_cx = ""
+openai.api_key = ""
 
 # === GOOGLE SEARCH FUNCTION ===
 def google_search(query):
